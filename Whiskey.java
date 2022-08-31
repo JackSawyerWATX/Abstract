@@ -9,7 +9,7 @@ abstract class Whiskey {
     //Abtract method
     public abstract void withIce();
 
-    //Abstract classes can have concrete methods
+    //Abstract classes with a concrete method
     public void pour(){
         System.out.println("I would like some " + name + " in a glass, please.");
     }
